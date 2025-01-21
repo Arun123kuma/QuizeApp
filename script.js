@@ -2,7 +2,7 @@ const questions = [
     {
         question: "Which Kuwaiti Minister visited India in December 2024?",
         options: ["H.E. Abdullah Ali Al Yahya", "H.E. Khaled Al-Jarallah", "H.E. Bader Al-Mulla", "H.E. Sheikh Dr. Ahmed Nasser"],
-        answer: 2 // H.E. Bader Al-Mulla
+        answer: 2 // H
     },
     {
         question: "What was one key outcome of the Kuwaiti Minister's visit to India?",
