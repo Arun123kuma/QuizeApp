@@ -1,130 +1,151 @@
 const questions = [
     {
-        question: "How much investment did iBUS Network secure from the International Finance Corporation (IFC)?",
-        options: ["USD 20 million", "USD 34 million", "USD 50 million", "USD 40 million"],
-        answer: 1 // Index of the correct answer
+        question: "Which Kuwaiti Minister visited India in December 2024?",
+        options: ["H.E. Abdullah Ali Al Yahya", "H.E. Khaled Al-Jarallah", "H.E. Bader Al-Mulla", "H.E. Sheikh Dr. Ahmed Nasser"],
+        answer: 2 // H.E. Bader Al-Mulla
     },
     {
-        question: "Which financial institution provided funding for the Rs 530 crore water supply project in Tripura?",
-        options: ["World Bank", "Asian Development Bank (ADB)", "International Monetary Fund (IMF)", "European Investment Bank (EIB)"],
-        answer: 1
-    },
-    {
-        question: "Which Chief Minister laid the foundation for the ADB-funded water supply project in Tripura?",
-        options: ["Biplab Kumar Deb", "Manik Saha", "Ratan Lal Nath", "Sudip Roy Barman"],
-        answer: 1
-    },
-    {
-        question: "Which online travel platform partnered with Bank of Baroda to launch a co-branded travel debit card?",
-        options: ["MakeMyTrip", "Cleartrip", "EaseMyTrip", "Yatra"],
-        answer: 2
-    },
-    {
-        question: "Which insurance company launched the 'SBIG Health Super Top-Up' plan?",
-        options: ["HDFC ERGO", "SBI General Insurance", "ICICI Lombard", "New India Assurance"],
-        answer: 1
-    },
-    {
-        question: "How many payment products were launched by City Union Bank at the 5th Global Fintech Fest?",
-        options: ["5", "6", "8", "10"],
-        answer: 2
-    },
-    {
-        question: "Which two entities collaborated to launch the MyBiz business credit card for SME owners?",
-        options: ["HDFC Bank and Visa", "Axis Bank and Mastercard", "ICICI Bank and American Express", "Yes Bank and Diners Club"],
-        answer: 1
-    },
-    {
-        question: "Axis AMC launched the first target maturity mutual fund scheme based on which sector?",
-        options: ["Information Technology", "Banking", "Non-Banking Financial Company (NBFC)", "Manufacturing"],
-        answer: 2
-    },
-    {
-        question: "By which year does Tata Electronics aim to develop India’s first domestically produced semiconductor chips?",
-        options: ["2024", "2025", "2026", "2027"],
-        answer: 2
-    },
-    {
-        question: "What is the S&P growth forecast for India’s GDP in FY25?",
-        options: ["6.5%", "6.8%", "7.1%", "7.5%"],
-        answer: 1
-    },
-    {
-        question: "What is Moody’s forecast for India’s GDP growth in CY24?",
-        options: ["6.8%", "7.1%", "6.5%", "7.3%"],
-        answer: 1
-    },
-    {
-        question: "What is the OECD's GDP forecast for India in FY25?",
-        options: ["6.7%", "6.9%", "6.6%", "7.0%"],
+        question: "What was one key outcome of the Kuwaiti Minister's visit to India?",
+        options: ["Signing of a MoU to establish a Joint Commission for Cooperation (JCC)", "Signing a defence pact", "Inauguration of a cultural festival", "Launch of a trade agreement"],
         answer: 0
     },
     {
-        question: "Which bank launched the National Common Mobility Card (NCMC) at the 5th Global Fintech Fest 2024?",
-        options: ["ICICI Bank", "HDFC Bank", "City Union Bank", "Axis Bank"],
-        answer: 2
+        question: "Which organization launched 'Trade Watch Quarterly' for Q1FY25?",
+        options: ["NITI Aayog", "Ministry of Commerce", "RBI", "Ministry of Finance"],
+        answer: 1 // Ministry of Commerce
     },
     {
-        question: "Which company launched India’s first NBFC sector-based target maturity mutual fund scheme?",
-        options: ["HDFC AMC", "ICICI Prudential AMC", "Axis AMC", "SBI Mutual Fund"],
-        answer: 2
-    },
-    {
-        question: "What is the projected Current Account Deficit (CAD) for India in FY25 according to the ADB?",
-        options: ["1.0%", "1.2%", "1.5%", "1.7%"],
-        answer: 1
-    },
-    {
-        question: "Which organization raised India’s GDP forecast to 7% for FY25?",
-        options: ["S&P", "OECD", "Moody’s", "ADB"],
-        answer: 3
-    },
-    {
-        question: "SBI General Insurance has partnered with which service provider to offer insurance products?",
-        options: ["BLS E-Services", "Infosys", "Paytm", "Airtel Payments Bank"],
+        question: "India’s total trade performance for the 1st Half (H1) of 2024 reached how many USD?",
+        options: ["576 billion", "500 billion", "600 billion", "550 billion"],
         answer: 0
     },
     {
-        question: "How much funding has the ADB already provided for the water supply project in Tripura?",
-        options: ["Rs 530 crore", "Rs 330 crore", "Rs 280 crore", "Rs 500 crore"],
-        answer: 1
-    },
-    {
-        question: "What is the sum insured range of the 'SBIG Health Super Top-Up' plan?",
-        options: ["Rs 1 lakh to Rs 2 crores", "Rs 2 lakhs to Rs 3 crores", "Rs 5 lakhs to Rs 4 crores", "Rs 10 lakhs to Rs 5 crores"],
-        answer: 2
-    },
-    {
-        question: "Which company is collaborating with Tata Electronics to develop domestic semiconductor chips?",
-        options: ["Wipro", "Tata Consultancy Services (TCS)", "Infosys", "Reliance"],
-        answer: 1
-    },
-    {
-        question: "Which is the first co-branded travel debit card launched by a Public Sector Bank (PSB) in India?",
-        options: ["SBI & MakeMyTrip Debit Card", "ICICI & Yatra Debit Card", "Bank of Baroda & EaseMyTrip Debit Card", "PNB & Cleartrip Debit Card"],
-        answer: 2
-    },
-    {
-        question: "What is the Moody’s GDP growth forecast for India in CY25?",
-        options: ["6.5%", "6.7%", "7.1%", "7.3%"],
+        question: "Which project received Cabinet approval on December 6, 2024?",
+        options: ["Rithala-Narela-Nathupur Metro corridor", "New bullet train project", "New highway project", "New airport construction"],
         answer: 0
     },
     {
-        question: "Which financial product was launched at the 5th GFF to cater to mutual funds?",
-        options: ["UPI Lite", "Credit Line on UPI", "Loan Against Securities", "National Common Mobility Card (NCMC)"],
-        answer: 2
+        question: "How many new Navodaya Vidyalayas (NVs) were approved for establishment?",
+        options: ["28", "50", "10", "35"],
+        answer: 0
     },
     {
-        question: "Which bank collaborated with Mastercard to launch MyBiz credit card?",
-        options: ["ICICI Bank", "HDFC Bank", "Axis Bank", "Yes Bank"],
-        answer: 2
+        question: "Which Union Minister launched 'Anna Chakra' and 'SCAN' Portal?",
+        options: ["Pralhad Joshi", "Rajnath Singh", "Nirmala Sitharaman", "Piyush Goyal"],
+        answer: 0 // Pralhad Joshi
     },
     {
-        question: "How much did Moody’s raise the Asia-Pacific region's growth forecast for 2025?",
-        options: ["From 3.8% to 3.9%", "From 3.9% to 4%", "From 4.0% to 4.1%", "From 4.1% to 4.2%"],
-        answer: 1
+        question: "The SCAN portal simplifies the process of subsidy claim submission under which act?",
+        options: ["National Food Security Act (NFSA) 2013", "Consumer Protection Act 1986", "Essential Commodities Act 1955", "Food Safety and Standards Act 2006"],
+        answer: 0
+    },
+    {
+        question: "Where was the 'GI & Beyond' Summit organized?",
+        options: ["New Delhi", "Mumbai", "Kolkata", "Chennai"],
+        answer: 0 // New Delhi
+    },
+    {
+        question: "Which campaign did Shivraj Singh Chouhan launch to combat gender-based violence?",
+        options: ["Nayi Chetna 3.0", "Beti Bachao Beti Padhao", "Sukanya Samriddhi Yojana", "Poshan Abhiyaan"],
+        answer: 0
+    },
+    {
+        question: "Who chaired the Defence Acquisition Council (DAC) meeting on December 3, 2024?",
+        options: ["Rajnath Singh", "Narendra Modi", "Amit Shah", "Nirmala Sitharaman"],
+        answer: 0
+    },
+    {
+        question: "How much was the value of the capital acquisitions approved by the DAC?",
+        options: ["Rs 21,772 crore", "Rs 10,000 crore", "Rs 30,000 crore", "Rs 15,000 crore"],
+        answer: 0
+    },
+    {
+        question: "Which Union Minister launched the 100-Day TB Elimination Campaign?",
+        options: ["Jagat Prakash Nadda", "Mansukh Mandaviya", "Harsh Vardhan", "Ram Vilas Paswan"],
+        answer: 1 // Mansukh Mandaviya
+    },
+    {
+        question: "When will the 100-Day TB Elimination Campaign culminate?",
+        options: ["March 24, 2025", "June 30, 2025", "December 31, 2025", "January 1, 2025"],
+        answer: 0 // March 24, 2025
+    },
+    {
+        question: "Where was India's first Hyperloop test track completed?",
+        options: ["IIT Madras, Tamil Nadu", "IIT Bombay, Maharashtra", "IIT Delhi, New Delhi", "IIT Kanpur, Uttar Pradesh"],
+        answer: 0
+    },
+    {
+        question: "Which Union Minister announced the completion of India's first Hyperloop test track?",
+        options: ["Ashwini Vaishnaw", "Piyush Goyal", "Smriti Irani", "Nitin Gadkari"],
+        answer: 0 // Ashwini Vaishnaw
+    },
+    {
+        question: "Who presented the President’s Colours to 4 battalions of Mechanised Infantry?",
+        options: ["General Upendra Dwivedi", "General Bipin Rawat", "General Manoj Mukund Naravane", "General Dalbir Singh"],
+        answer: 0
+    },
+    {
+        question: "How many battalions received the President’s Colour Award?",
+        options: ["4", "5", "6", "3"],
+        answer: 0
+    },
+    {
+        question: "Which Union Minister launched the 'GI & Beyond' Summit?",
+        options: ["Union Minister of Textiles", "Union Minister of Commerce", "Union Minister of Culture", "Union Minister of Science & Technology"],
+        answer: 0 // Union Minister of Textiles
+    },
+    {
+        question: "Which ministry developed the NYPS portal?",
+        options: ["Ministry of Parliamentary Affairs", "Ministry of Home Affairs", "Ministry of External Affairs", "Ministry of Education"],
+        answer: 0
+    },
+    {
+        question: "What is the theme of IFFI 2024?",
+        options: ["Young Filmmakers – The Future is Now", "Cinema for a Better Tomorrow", "Celebrating Indian Cinema", "Global Cinema Unites"],
+        answer: 0 // Young Filmmakers – The Future is Now
+    },
+    {
+        question: "Which festival was organized by the Ministry of Information & Broadcasting in collaboration with NFDC and ESG?",
+        options: ["IFFI 2024", "Dadasaheb Phalke Awards", "National Film Awards", "Mumbai Film Festival"],
+        answer: 0
+    },
+    {
+        question: "Who launched the NYPS portal?",
+        options: ["Former President Ram Nath Kovind", "Former Prime Minister Manmohan Singh", "Former Vice President M. Venkaiah Naidu", "Former Chief Justice Ranjan Gogoi"],
+        answer: 0
+    },
+    {
+        question: "What is the full form of NYPS?",
+        options: ["National Youth Parliament Scheme", "National Youth Policy Scheme", "National Youth Programme Scheme", "National Youth Participation Scheme"],
+        answer: 0
+    },
+    {
+        question: "What does the Nayi Chetna campaign aim to combat?",
+        options: ["Gender-based violence", "Child labour", "Drug abuse", "Environmental pollution"],
+        answer: 0
+    },
+    {
+        question: "Who is collaborating with DPIIT to foster over 2,000 startups?",
+        options: ["WinZO", "Flipkart", "Amazon", "Paytm"],
+        answer: 0 // WinZO
+    },
+    {
+        question: "What is the 'Anna Chakra' initiative?",
+        options: ["A PDS supply chain optimization tool", "A health campaign", "An education initiative", "A financial inclusion program"],
+        answer: 0
+    },
+    {
+        question: "Which summit showcased India's GI tagged handloom products?",
+        options: ["'GI & Beyond' Summit", "Handloom Week", "Textile Summit", "Crafts Expo"],
+        answer: 0
+    },
+    {
+        question: "When was the 5th anniversary of the NYPS portal observed?",
+        options: ["November 26, 2024", "December 5, 2024", "January 1, 2025", "October 10, 2024"],
+        answer: 0
     }
 ];
+
 
 
 // Load the quiz when the DOM is fully loaded
